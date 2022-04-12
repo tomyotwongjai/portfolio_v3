@@ -1,0 +1,12 @@
+.app {
+  @media screen and (max-width: 1080px) {
+    padding: 1rem 2rem;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 0.75rem 1.5rem;
+  }
+  @media screen and (max-width: 480px) {
+    // padding: 0.5rem 1rem;
+    margin-left: 2rem;
+  }
+}

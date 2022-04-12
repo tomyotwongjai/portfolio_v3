@@ -1,13 +1,74 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Poppins:wght@300;400&family=Roboto+Mono:wght@300;400&display=swap');
+
+:root {
+  --neon-color: #05f1f1;
+  --lightest-navy: #233554;
+  --text-light-grey: #ccd6f6;
+  --text-medium-grey: #a7a9be;
+  --box-shadow: 0px 19px 60px rgb(0 0 0 / 8%);
+
+  --font-mons: 'Montserrat', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-robo: 'Roboto Mono', monospace;
+
+  --font-opensans: 'Open Sans', sans-serif;
+  --fz-xxs: 12px;
+  --fz-xs: 13px;
+  --fz-sm: 14px;
+  --fz-md: 16px;
+  --fz-lg: 18px;
+  --fz-xl: 20px;
+  --fz-xxl: 22px;
+  --fz-heading: 32px;
+  --border-radius: 4px;
+  --nav-height: 100px;
+  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: var(--fz-lg);
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.3;
+  background-image: linear-gradient(#2c3531, #116466, #116466, #2c3531);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* No Scroll bar */
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--neon-color);
+  background-color: transparent;
+  padding: 10px 30px;
+  border: 1px solid var(--neon-color);
+  border-radius: var(--fz-xs);
+  cursor: pointer;
+  outline-width: 0;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.button:hover {
+  background: #05869c;
 }

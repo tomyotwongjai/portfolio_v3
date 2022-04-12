@@ -1,0 +1,83 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  height: var(--nav-height);
+
+  .header__logo {
+    color: #ccd6f6;
+
+    margin-right: auto;
+
+    span {
+      color: var(--neon-color);
+      margin-right: auto;
+    }
+
+    @media (max-width: 1080px) {
+      padding: 0 40px;
+    }
+
+    @media (max-width: 480px) {
+      padding: 0 20px 0px 0;
+    }
+  }
+
+  .nav__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 420px;
+    margin: 20px -10px 0 auto;
+
+    .nav__link {
+      cursor: pointer;
+      text-decoration: none;
+      color: #ccd6f6;
+      font-size: 1rem;
+
+      &:hover {
+        color: var(--neon-color);
+      }
+    }
+    @media (max-width: 768px) {
+      display: none;
+    }
+
+    @media (max-width: 1080px) {
+      width: 300px;
+    }
+  }
+
+  /* Logo Animation */
+
+  .line_1 {
+    // top: 50%;
+    width: 1em;
+    // margin: 0 auto;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .anim_type {
+    animation: typewriter 1s steps(44) 1s 1 normal both;
+    // blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 1.7em;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: #1a1a1d;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+}
