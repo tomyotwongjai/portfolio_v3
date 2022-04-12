@@ -52,7 +52,7 @@ export const projects = [
       'Fully functional end to end chat application using chat.io API, google authentication. Using firebase as a backend',
     ],
 
-    deploy_url: 'https://awesomechat.netlify.app/',
+    deployed_url: 'https://awesomechat.netlify.app/',
     github_url: 'https://github.com/tomyotwongjai/chatapp',
     category: ['previous'],
     key_techs: ['React', 'Chat.io api', 'react-hook'],
@@ -64,7 +64,7 @@ export const projects = [
       'Simple responsive static Landing page using html/css and some javascript for animation & scrollup ',
     ],
 
-    deploy_url: 'https://onepagelanding.netlify.app',
+    deployed_url: 'https://onepagelanding.netlify.app',
     github_url: 'https://github.com/tomyotwongjai/landingpage-sample',
     category: ['previous'],
     key_techs: [
@@ -81,7 +81,7 @@ export const projects = [
       'Weather application build with react. Fetching current weather information using openweather API ',
     ],
 
-    deploy_url: 'https://whatweathercity.netlify.app/',
+    deployed_url: 'https://whatweathercity.netlify.app/',
     github_url: 'https://github.com/tomyotwongjai/react-weather-app',
     category: ['previous'],
     key_techs: [
@@ -99,7 +99,7 @@ export const projects = [
       'Weather application build with react. Fetching current weather information using openweather API ',
     ],
 
-    deploy_url: 'https://tomyotwongjai.netlify.app/',
+    deployed_url: 'https://tomyotwongjai.netlify.app/',
     github_url: 'https://github.com/tomyotwongjai/portfolio',
     category: ['previous'],
     key_techs: [

@@ -6,7 +6,7 @@ const ScrollLink = Scroll.Link;
 
 const navbar = () => {
   return (
-    <main className='header' id='/'>
+    <main className='header' id='home'>
       <header className='header__logo'>
         <h1 className='line_1 anim_type '>
           <span>T</span> Y
