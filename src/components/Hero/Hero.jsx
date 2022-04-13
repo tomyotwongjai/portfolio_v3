@@ -6,11 +6,13 @@ const Hero = () => {
     <main className='hero'>
       <span>Aloha! I am Tom</span>
       <h1 className='hero__subtitle'>
-        I like to build website and try different technologies.
+        I am a life long learner that like to build things on the web and try
+        different technologies.
       </h1>
       <p>
-        I am a software developer, occational traveller that like to try and
-        fail in things. I like to design website with minimalistic feel, yet
+        I am React lover that like to try implement new things on the web.
+        Sometime I fail sometime I succeeded, but at the end of the day I'm
+        always learning. I like to design website with minimalistic feel, yet
         engage in user experience.
       </p>
       <a href='/assets/Tom-Resume.pdf' download='Tom-Resume'>

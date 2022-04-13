@@ -18,14 +18,26 @@ const Sidebar = () => {
           transition={{ delay: 5, type: 'spring', stiffness: 120 }}
           className='sidebar__icons'
         >
-          <a href='https://github.com/tomyotwongjai'>
-            <AiOutlineGithub />
+          <a
+            href='https://github.com/tomyotwongjai'
+            aria-label='Github'
+            taget='_blank'
+          >
+            <AiOutlineGithub name='Github' />
           </a>
-          <a href='https://twitter.com/tom_yotwongjai'>
-            <AiOutlineTwitter />
+          <a
+            href='https://twitter.com/tom_yotwongjai'
+            aria-label='Twitter'
+            taget='_blank'
+          >
+            <AiOutlineTwitter name='Twitter' />
           </a>
-          <a href='https://www.linkedin.com/in/tomyotwongjai/'>
-            <AiOutlineLinkedin />
+          <a
+            href='https://www.linkedin.com/in/tomyotwongjai/'
+            aria-label='Linkedin'
+            taget='_blank'
+          >
+            <AiOutlineLinkedin name='Linkedin' />
           </a>
         </motion.div>
       </section>
@@ -42,9 +54,11 @@ const Sidebar = () => {
               key={item + index}
               className='app__navigation_dot'
             >
-              <li>
-                <GoPrimitiveDot />
-              </li>
+              <ul>
+                <li>
+                  <GoPrimitiveDot aria-label='hidden' />
+                </li>
+              </ul>
             </a>
           ))}
         </motion.div>

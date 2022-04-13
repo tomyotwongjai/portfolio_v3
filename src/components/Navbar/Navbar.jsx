@@ -12,7 +12,7 @@ const navbar = () => {
           <span>T</span> Y
         </h1>
       </header>
-      <div className='nav__links'>
+      <nav className='nav__links'>
         {navLinks &&
           navLinks.map(({ name, url }, i) => (
             <ScrollLink
@@ -26,7 +26,7 @@ const navbar = () => {
               {name}
             </ScrollLink>
           ))}
-      </div>
+      </nav>
     </main>
   );
 };

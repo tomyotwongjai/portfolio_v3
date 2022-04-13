@@ -11,17 +11,29 @@ const Footer = () => {
     <section className='footer'>
       <div className='footer__content'>
         <ul className='footer__icons'>
-          <a href='https://github.com/tomyotwongjai'>
+          <a
+            href='https://github.com/tomyotwongjai'
+            aria-label='Github'
+            target='_blank'
+          >
             <AiOutlineGithub />
           </a>
-          <a href='https://twitter.com/tom_yotwongjai'>
+          <a
+            href='https://twitter.com/tom_yotwongjai'
+            aria-label='Twitter'
+            target='_blank'
+          >
             <AiOutlineTwitter />
           </a>
-          <a href='https://www.linkedin.com/in/tomyotwongjai/'>
+          <a
+            href='https://www.linkedin.com/in/tomyotwongjai/'
+            aria-label='Linkedin'
+            target='_blank'
+          >
             <AiOutlineLinkedin />
           </a>
         </ul>
-        <p>🤙 🙏 | Tom Yotwongjai</p>
+        <p>🤙| Tom Yotwongjai</p>
         <span style={{ color: '#a7a9be' }}>© 2022</span>
       </div>
     </section>

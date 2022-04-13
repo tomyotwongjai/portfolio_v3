@@ -22,7 +22,6 @@
 
   .contact__info {
     margin-bottom: 40px;
-    font-size: 1rem;
 
     p {
       color: #8892b0;
@@ -33,7 +32,7 @@
     }
 
     @media (max-width: 480px) {
-      font-size: 2rem;
+      margin-right: 10px;
     }
   }
 
@@ -43,7 +42,7 @@
     }
   }
 
-  h3 {
+  h2 {
     color: #8892b0;
     line-height: 1.4;
     width: 100vw;
@@ -70,9 +69,16 @@
       height: 2rem;
       padding: 0.3rem;
       outline: none;
-      border: 2px solid var(--medium-grey);
+      border: 2px solid #05869c;
       border-radius: 0.5rem;
       font-size: 1.2rem;
+      color: #fff;
+      background-color: #116466;
+      transition: var(--transition);
+
+      &:focus {
+        border: 2px solid var(--neon-color);
+      }
 
       @media (max-width: 480px) {
         width: 15rem;

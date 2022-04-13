@@ -16,12 +16,12 @@ export const navLinks = [
 ];
 
 export const skills = [
-  'JavaScript (ES6+)',
+  'Tailwind CSS',
   'TypeScript',
-  'React/Redux',
+  'MERN Stack',
   'NextJs',
   'Firebase',
-  'Unit Testing',
+  'Framer Motion',
 ];
 
 export const projects = [

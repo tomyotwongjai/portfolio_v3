@@ -31,8 +31,8 @@ const Contact = () => {
   };
   return (
     <>
-      <div className='contact' id='contact'>
-        <div className='contact__left'>
+      <main className='contact' id='contact'>
+        <section className='contact__section'>
           <div className='contact__title'>
             <h1>Get In Touch</h1>
           </div>
@@ -50,10 +50,10 @@ const Contact = () => {
             Reach Me Here
           </button>
 
-          <h3>Or Leave Comment Below!</h3>
-        </div>
+          <h2>Or Leave Comment Below 🙏</h2>
+        </section>
 
-        <div className='contact__form'>
+        <section className='contact__form'>
           <form ref={form} onSubmit={sendEmail}>
             <input
               type='text'
@@ -73,7 +73,7 @@ const Contact = () => {
               type='text'
               name='message'
               className='user'
-              placeholder='Comments...'
+              placeholder='Comment...'
             />
             <input type='submit' value='Send' className='button' />
             <span>{done && 'Thanks for Contacting me'}</span>
@@ -82,8 +82,8 @@ const Contact = () => {
               style={{ background: 'var(--lightest-grey)' }}
             ></div>
           </form>
-        </div>
-      </div>
+        </section>
+      </main>
     </>
   );
 };

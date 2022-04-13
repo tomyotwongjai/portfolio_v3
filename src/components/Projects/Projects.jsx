@@ -15,21 +15,21 @@ const Projects = () => {
 
   return (
     <>
-      <div className='project__container' id='projects'>
+      <main className='project__container' id='projects'>
         <Border title='All Projects' />
-        <div className='project__section'>
-          <ul className='project__grid'>
+        <section className='project__section'>
+          <div className='project__grid'>
             {projects.map(
               (project, index) =>
                 index < value && <Card {...project} key={index} />
             )}
-          </ul>
+          </div>
 
           <button className='show__button' onClick={handleShowProjects}>
             {showProject ? 'Show less' : 'Show More'}
           </button>
-        </div>
-      </div>
+        </section>
+      </main>
     </>
 
     // </SectionContainer>

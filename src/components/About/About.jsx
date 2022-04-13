@@ -11,13 +11,17 @@ const About = () => {
       <div className='inner'>
         <div className='text__container'>
           <p>
-            I started my web development journey back in 2017. But I think the
-            timing was not right so I put my dream on the self until 2021 when I
-            realy ramp up my Journey.
+            I started my web development journey back in 2017 when I took a
+            chance and went on 24 weeks coding bootcamp. I appreciate the
+            experience but mentally, I was not in the right mindset. So I did
+            what I had done, put my goal on the shelf and went back to do what I
+            know best, manual Labor.
           </p>
           <p>
-            I am now immerse myself everyday learning and make it my goal to
-            become a better programmer.
+            Not until 2021 when I had tremendous urge to get back and fufill
+            what I'd left back in 2017. I am now immerse myself learning and
+            making it my goal to be 1% better every day not only as a developer
+            but in life as well.
           </p>
         </div>
         <div className='skill__list'>
