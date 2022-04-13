@@ -60,6 +60,7 @@ const Contact = () => {
               name='user_name'
               className='user'
               placeholder='Name'
+              required
             />
 
             <input
@@ -67,6 +68,7 @@ const Contact = () => {
               name='user_email'
               className='user'
               placeholder='Email'
+              required
             />
 
             <textarea
@@ -74,8 +76,9 @@ const Contact = () => {
               name='message'
               className='user'
               placeholder='Comment...'
+              required
             />
-            <input type='submit' value='Send' className='button' />
+            <input type='submit' value='Send' className='button' required />
             <span>{done && 'Thanks for Contacting me'}</span>
             <div
               className='blur c-blur1'
