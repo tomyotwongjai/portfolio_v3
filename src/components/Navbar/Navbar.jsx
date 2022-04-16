@@ -2,6 +2,8 @@ import React from 'react';
 import './Navbar.scss';
 import { navLinks } from '../../libs/data';
 import Scroll from 'react-scroll';
+import { motion } from 'framer-motion';
+
 const ScrollLink = Scroll.Link;
 
 const navbar = () => {
@@ -12,7 +14,18 @@ const navbar = () => {
           <span>T</span> Y
         </h1>
       </header>
-      <nav className='nav__links'>
+      <motion.nav
+        className='nav__links'
+        initial={{ y: -100 }}
+        animate={{
+          y: 0,
+          transition: {
+            delay: 1,
+            duration: 0.6,
+            ease: 'easeInOut',
+          },
+        }}
+      >
         {navLinks &&
           navLinks.map(({ name, url }, i) => (
             <ScrollLink
@@ -26,7 +39,7 @@ const navbar = () => {
               {name}
             </ScrollLink>
           ))}
-      </nav>
+      </motion.nav>
     </main>
   );
 };

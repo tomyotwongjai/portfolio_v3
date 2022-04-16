@@ -1,10 +1,24 @@
 import React from 'react';
 import './Hero.scss';
+import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <main className='hero'>
+    <motion.main
+      className='hero'
+      initial={{ y: 'down' ? -100 : 30, opacity: 0 }}
+      animate={{
+        y: 0,
+        opacity: 1,
+        transition: {
+          delay: 2,
+          duration: 1,
+          ease: 'easeInOut',
+        },
+      }}
+    >
       <span>Aloha! I am Tom</span>
+
       <h1 className='hero__subtitle'>
         I am a life long learner that like to build things on the web and try
         different technologies.
@@ -18,7 +32,7 @@ const Hero = () => {
       <a href='/assets/Tom-Resume.pdf' download='Tom-Resume'>
         <button className='button'>Resume</button>
       </a>
-    </main>
+    </motion.main>
   );
 };
 

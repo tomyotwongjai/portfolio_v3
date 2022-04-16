@@ -1,0 +1,113 @@
+.loading {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+  text-transform: uppercase;
+  position: relative;
+
+  .loading__container {
+    width: 80px;
+    height: 80px;
+    position: relative;
+
+    div {
+      width: 4px;
+      height: 40px;
+      color: var(--neon-color);
+      position: absolute;
+
+      &:nth-of-type(1) {
+        left: -70px;
+        animation-name: slide_in;
+        animation-duration: 2s;
+        animation-delay: 0.2s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-out;
+        visibility: hidden;
+      }
+      &:nth-of-type(2) {
+        left: -45px;
+        animation-name: slide_in;
+        animation-duration: 2s;
+        animation-delay: 0.3s;
+        animation-fill-mode: forwards;
+        visibility: hidden;
+      }
+      &:nth-of-type(3) {
+        left: -25px;
+        animation-name: slide_in;
+        animation-duration: 2s;
+        animation-delay: 0.4s;
+        animation-fill-mode: forwards;
+        visibility: hidden;
+      }
+      &:nth-of-type(4) {
+        left: -5px;
+        animation-name: slide_in;
+        animation-duration: 2s;
+        animation-delay: 0.5s;
+        animation-fill-mode: forwards;
+        visibility: hidden;
+      }
+      &:nth-of-type(5) {
+        left: 15px;
+        animation-name: slide_in;
+        animation-duration: 2s;
+        animation-delay: 0.6s;
+        animation-fill-mode: forwards;
+        visibility: hidden;
+      }
+      &:nth-of-type(6) {
+        right: 40px;
+        animation-name: slide_in;
+        animation-duration: 2s;
+        animation-delay: 0.7s;
+        animation-fill-mode: forwards;
+        visibility: hidden;
+      }
+      &:nth-of-type(7) {
+        right: 15px;
+        animation-name: slide_in;
+        animation-duration: 2s;
+        animation-delay: 0.8s;
+        animation-fill-mode: forwards;
+        visibility: hidden;
+      }
+      &:nth-of-type(8) {
+        right: 0;
+        animation-name: slide_in;
+        animation-duration: 2s;
+        animation-delay: 0.9s;
+        animation-fill-mode: forwards;
+        visibility: hidden;
+      }
+      &:nth-of-type(9) {
+        right: -10px;
+        animation-name: slide_in;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        visibility: hidden;
+      }
+      &:nth-of-type(10) {
+        right: -20px;
+        animation-name: slide_in;
+        animation-duration: 2s;
+        animation-delay: 1.2s;
+        animation-fill-mode: forwards;
+        visibility: hidden;
+      }
+
+      @keyframes slide_in {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

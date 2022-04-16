@@ -3,6 +3,10 @@ import './Projects.scss';
 import { Card } from '../../container';
 import { projects } from '../../libs/data';
 import { Border } from '../../container';
+import { motion } from 'framer-motion';
+import { AnimateWhenVisible } from '../../container';
+import { fadeIn } from '../../libs/variants';
+import { textContainer } from '../../libs/variants';
 
 const Projects = () => {
   const [value, setValue] = useState(3);
@@ -17,11 +21,16 @@ const Projects = () => {
     <>
       <main className='project__container' id='projects'>
         <Border title='All Projects' />
+
         <section className='project__section'>
           <div className='project__grid'>
             {projects.map(
               (project, index) =>
-                index < value && <Card {...project} key={index} />
+                index < value && (
+                  <AnimateWhenVisible variants={textContainer}>
+                    <Card {...project} key={index} />
+                  </AnimateWhenVisible>
+                )
             )}
           </div>
 

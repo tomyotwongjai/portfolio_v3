@@ -1,6 +1,8 @@
 import React from 'react';
 import './Card.scss';
 import { FiExternalLink, FiGithub } from 'react-icons/fi';
+import { motion } from 'framer-motion';
+import { fadeIn } from '../../libs/variants';
 
 const Card = ({
   name,
@@ -14,7 +16,7 @@ const Card = ({
     window.open(url, '_blank');
   };
   return (
-    <div className='project__inner'>
+    <motion.div variants={fadeIn('up')} className='project__inner'>
       {/* <img
         alt={name}
         src={image}
@@ -43,7 +45,7 @@ const Card = ({
           <small>{tech}</small>
         </span>
       ))}
-    </div>
+    </motion.div>
 
     // <div className='p'>
     //   <div className='project__icons'>
