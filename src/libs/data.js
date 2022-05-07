@@ -40,13 +40,24 @@ export const projects = [
       'React',
       'Redux',
       'Tailwind',
-      'TypeScript',
       'Firebase Auth',
       'FireStore',
     ],
   },
   {
     id: 2,
+    name: 'Simple eCommerce CRUD application',
+    descriptions: [
+      'This is CRUD application I did for my junior test at Scandiweb. The applcation use react as front end and PHP/Mysqql for databse. The project inculde form validation.',
+    ],
+
+    deployed_url: 'https://scandiweb-test-bice.vercel.app',
+    github_url: 'https://github.com/tomyotwongjai/scandiweb-test',
+    category: ['previous'],
+    key_techs: ['React', 'PHP', 'MYSQL'],
+  },
+  {
+    id: 3,
     name: 'Chat Application',
     descriptions: [
       'Fully functional end to end chat application using chat.io API, google authentication. Using firebase as a backend',
@@ -58,7 +69,7 @@ export const projects = [
     key_techs: ['React', 'Chat.io api', 'react-hook'],
   },
   {
-    id: 3,
+    id: 4,
     name: 'Static landing page',
     descriptions: [
       'Simple responsive static Landing page using html/css and some javascript for animation & scrollup ',
@@ -75,7 +86,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     name: 'Weather Application',
     descriptions: [
       'Weather application build with react. Fetching current weather information using openweather API ',
@@ -93,7 +104,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: 'First Portfolio',
     descriptions: [
       'Weather application build with react. Fetching current weather information using openweather API ',
