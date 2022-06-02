@@ -3,11 +3,13 @@
   height: 100%;
   padding: 10px;
   border-radius: var(--border-radius);
-  transition: var(--transition);
+  transition:  ease-in-out  .5s;
   cursor: pointer;
 
-  // background-color: #252335;
-  // grid-column: 1 / -1;
+
+  &:hover {
+    box-shadow: var(--box-shadow);
+  }
 
   box-shadow: 3px 3px 20px rgba(7, 219, 247, 0.5);
   text-align: center;
@@ -42,12 +44,14 @@
 
   .project__detail {
     color: #ccd6f6;
-    font-size: 0.9rem;
     font-family: var(--font-opensans);
-
     line-height: 1.4;
     margin-bottom: 20px;
     flex: 1;
+
+    p {
+      font-size: 1rem;
+    }
   }
 
   .project__icon {

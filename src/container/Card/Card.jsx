@@ -17,14 +17,14 @@ const Card = ({
   };
   return (
     <motion.div variants={fadeIn('up')} className='project__inner'>
-      {/* <img
+       {/* <img
         alt={name}
         src={image}
         quality={100}
         className='project__image'
         objectfit='contain'
         placeholder='blur'
-      /> */}
+      />  */}
       <div className='project__icon'>
         <span>
           <FiGithub onClick={() => openLink(github_url)} />
@@ -46,27 +46,6 @@ const Card = ({
         </span>
       ))}
     </motion.div>
-
-    // <div className='p'>
-    //   <div className='project__icons'>
-    //     <span>
-    //       <FiGithub onClick={() => openLink(github_url)} />
-    //     </span>
-
-    //     <span>
-    //       <FiExternalLink onClick={() => openLink(deployed_url)} />
-    //     </span>
-    //   </div>
-    //   <h3 className='project__title'>{name}</h3>
-    //   <p className='project__detail'>
-    //     {descriptions && descriptions.map((desc, i) => <p key={i}>{desc}</p>)}
-    //   </p>
-    //   {key_techs?.map((tech) => (
-    //     <span className='tech' key={tech}>
-    //       <small>{tech}</small>
-    //     </span>
-    //   ))}
-    // </div>
   );
 };
 

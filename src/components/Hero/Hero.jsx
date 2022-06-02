@@ -19,16 +19,12 @@ const Hero = () => {
     >
       <span>Aloha! I am Tom</span>
 
-      <h1 className='hero__subtitle'>
-        I am a life long learner that like to build things on the web and try
-        different technologies.
+      <h1 className='hero__subtitle' id="hero">
+      <span>I'm a passionate</span> Frontend Developer
       </h1>
-      <p>
-        I am React lover that like to try implement new things on the web.
-        Sometime I fail sometime I succeeded, but at the end of the day I'm
-        always learning. I like to design website with minimalistic feel, yet
-        engage in user experience.
-      </p>
+       <span>📘 I am currently teaching myself everything about front end design.</span> 
+        <span>✨ I have continuous stream of motivation to advance my skills. I love what I do.  </span>
+      <span>🌴 I am a self-motivated person who is always willing to learn new things. </span>
       <a href='/assets/Tom-Resume.pdf' download='Tom-Resume'>
         <button className='button'>Resume</button>
       </a>

@@ -7,6 +7,7 @@ import {
 } from 'react-icons/ai';
 import { motion } from 'framer-motion';
 import { GoPrimitiveDot } from 'react-icons/go';
+import ScrollUp from '../../components/ScrollUp/ScrollUp';
 
 const Sidebar = () => {
   return (
@@ -47,20 +48,8 @@ const Sidebar = () => {
           animate={{ opacity: 1, y: -10 }}
           transition={{ delay: 5, type: 'spring', stiffness: 120 }}
           className='sidebar__links'
-        >
-          {['home', 'about', 'projects', 'contact'].map((item, index) => (
-            <a
-              href={`#${item}`}
-              key={item + index}
-              className='app__navigation_dot'
-            >
-              <ul>
-                <li>
-                  <GoPrimitiveDot aria-label='hidden' />
-                </li>
-              </ul>
-            </a>
-          ))}
+        >      
+          <ScrollUp />              
         </motion.div>
       </section>
     </>

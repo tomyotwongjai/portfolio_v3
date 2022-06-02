@@ -23,12 +23,12 @@ const Projects = () => {
         <Border title='All Projects' />
 
         <section className='project__section'>
-          <div className='project__grid'>
+          <div className='project__grid' >
             {projects.map(
               (project, index) =>
                 index < value && (
-                  <AnimateWhenVisible variants={textContainer}>
-                    <Card {...project} key={index} />
+                  <AnimateWhenVisible variants={textContainer} key={index}>
+                    <Card {...project}  />
                   </AnimateWhenVisible>
                 )
             )}

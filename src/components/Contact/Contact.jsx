@@ -3,7 +3,6 @@ import './Contact.scss';
 import emailjs from '@emailjs/browser';
 import { AnimateWhenVisible } from '../../container';
 import { textContainer } from '../../libs/variants';
-import { motion } from 'framer-motion';
 
 const Contact = () => {
   const form = useRef();
@@ -47,14 +46,14 @@ const Contact = () => {
             </div>
             <div className='contact__info'>
               <p>
-                I am currently looking for a where I can learn, grow, and be
+                I am currently looking for an opportunities to learn, grow and
                 part of creative team and build something awesome!
               </p>
             </div>
 
             <button
               className='button'
-              onClick={() => window.open('mailto:travel3.biz@gmail.com')}
+              onClick={() => window.open('mailto:tomyotwongjai@gmail.com')}
             >
               Reach Me Here
             </button>
@@ -66,7 +65,7 @@ const Contact = () => {
           <section className='contact__form'>
             <form
               initial={{ left: '25rem' }}
-              whileInView={{ left: '14rem' }}
+              whileinview={{ left: '14rem' }}
               transition={transition}
               ref={form}
               onSubmit={sendEmail}

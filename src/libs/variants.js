@@ -29,11 +29,9 @@ export const fadeIn = (direction = 'up') => {
       },
     },
     exit: {
-      //  y: direction === "down" ? -40 : 30,
       opacity: 0,
       transition: {
         delay: 10,
-        //  duration: 0.4,
         ease: 'easeInOut',
       },
     },
@@ -60,12 +58,10 @@ export const mapAnimation = {
   },
   animate: {
     opacity: 1,
-    // borderWidth: 0,
     scale: 1,
     transition: {
       delay: 1.2,
       duration: 1,
-      // ease: [0.06, 0.69, 0.33, 0.97],
       ease: 'easeOut',
     },
   },
