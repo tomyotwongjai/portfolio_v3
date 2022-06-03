@@ -32,7 +32,7 @@
     }
 
     @media (max-width: 480px) {
-      margin-right: 10px;
+      margin-left: 1.5rem;
     }
   }
 
@@ -50,53 +50,11 @@
     font-size: 1.5rem;
   }
 
-  .contact__form {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    padding-top: 3rem;
-    flex: 1;
-
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      align-items: center;
-    }
-
-    .user {
-      width: 20rem;
-      height: 2rem;
-      padding: 0.3rem;
-      outline: none;
-      border: 2px solid #05869c;
-      border-radius: 0.5rem;
-      font-size: 1.2rem;
-      color: #fff;
-      background-color: #116466;
-      transition: var(--transition);
-
-      &:focus {
-        border: 2px solid var(--neon-color);
-      }
-
-      @media (max-width: 480px) {
-        width: 15rem;
-      }
-    }
-    textarea {
-      height: 4rem !important;
-    }
-  }
+  
   @media screen and (max-width: 480px) {
     margin-left: 10px;
     flex-direction: column;
     gap: 5rem;
     height: 40rem;
   }
-}
-
-.c-blur1 {
-  top: 1rem;
-  left: 8rem;
 }
