@@ -13,9 +13,10 @@
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    
 
     h1 {
-      color: #ccd6f6;
+      color: var(--neon-color);
       font-size: calc(35px + 1vw);
     }
   }
@@ -24,7 +25,7 @@
     margin-bottom: 40px;
 
     p {
-      color: #8892b0;
+      color: #c0ccf1;
       line-height: 1.4;
       width: 100vw;
       max-width: 700px;

@@ -24,7 +24,7 @@ const Sidebar = () => {
             aria-label='Github'
             taget='_blank'
           >
-            <AiOutlineGithub name='Github' />
+            <AiOutlineGithub name='Github'  />
           </a>
           <a
             href='https://twitter.com/tom_yotwongjai'

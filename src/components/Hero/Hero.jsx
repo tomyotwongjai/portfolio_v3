@@ -20,11 +20,11 @@ const Hero = () => {
       <span>Aloha! I am Tom</span>
 
       <h1 className='hero__subtitle' id="hero">
-      <span>I'm a passionate</span> Frontend Developer
+      I am a Front-End Developer
       </h1>
-       <span>📘 I am currently teaching myself everything about front end design.</span> 
-        <span>✨ I have continuous stream of motivation to advance my skills. I love what I do.  </span>
-      <span>🌴 I am a self-motivated person who is always willing to learn new things. </span>
+       <span>📘 Every failure is a learning opportunity</span> 
+        <span>✨ Kaizen (改善, かいぜん): Continuous improvment</span>
+      <span>🌴 Be 1% better than yesterday</span>
       <a href='/assets/Tom-Resume.pdf' download='Tom-Resume'>
         <button className='button'>Resume</button>
       </a>

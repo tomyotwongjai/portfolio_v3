@@ -1,4 +1,5 @@
 import discord from '../images/discord.png';
+import {GrGraphQl} from 'react-icons/gr';
 
 
 // Navigation
@@ -19,14 +20,13 @@ export const navLinks = [
 
 
 // skills list
-export const skills = [
-  'SCSS',
+export const skills = [ 
   'Context API',
   'React',
-  'NextJs',
-  'Firebase',
-  'Framer Motion',
-  'GraphQL',
+  'Redux',
+  'Google Firebase',
+  'GraphQl',
+  'Tailwind CSS',
 ];
 
 export const projects = [

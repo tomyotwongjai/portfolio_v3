@@ -16,17 +16,13 @@ const About = () => {
         <motion.div variants={fadeIn('up')} className='inner'>
           <motion.div className='text__container'>
             <p>
-              I started my web development journey back in 2017 when I took a
-              chance and went on 24 weeks coding bootcamp. I appreciate the
-              experience but mentally, I was not in the right mindset. So I did
-              what I had done, put my goal on the shelf and went back to do what
-              I know best, manual Labor.
+              Life is a journey, not a race. I believe it also go well with Web development.
+              I started my journey in 2017. But along the way new path is shown, new hurdles to climb,
+              deep holes that arise without warning. I was lost for a moment.
             </p>
             <p>
-              Not until 2021 when I had tremendous urge to get back and fufill
-              what I'd left back in 2017. I am now immerse myself learning and
-              making it my goal to be 1% better every day not only as a
-              developer but in life as well.
+              Now I have just one path, I climb the hurdles and filled the holes. I am on the right track and I enjoy
+              learning and sharpen my skills, and continue my goal to be a better developer.
             </p>
           </motion.div>
           <motion.div variants={fadeIn('up')} className='skill__list'>
