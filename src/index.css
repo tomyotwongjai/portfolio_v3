@@ -7,7 +7,7 @@
   --lightest-navy: #233554;
   --text-light-grey: #ccd6f6;
   --text-medium-grey: #a7a9be;
-  --box-shadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --box-shadow: 0px 19px 60px rgba(51, 1, 1, 0.164);
 
   --font-mons: 'Montserrat', sans-serif;
   --font-poppins: 'Poppins', sans-serif;
@@ -61,7 +61,7 @@ body::-webkit-scrollbar {
   color: var(--neon-color);
   background-color: transparent;
   padding: 10px 30px;
-  border: 1px solid var(--neon-color);
+  border: 1px solid #fff;
   border-radius: var(--fz-xs);
   cursor: pointer;
   outline-width: 0;

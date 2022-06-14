@@ -41,7 +41,6 @@ const Projects = () => {
       </main>
     </>
 
-    // </SectionContainer>
   );
 };
 

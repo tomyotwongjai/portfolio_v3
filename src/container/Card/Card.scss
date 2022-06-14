@@ -7,11 +7,11 @@
   border-radius: var(--border-radius);
   transition:  ease-in-out  .5s;
   cursor: pointer;
-  box-shadow: 3px 3px 20px rgba(7, 219, 247, 0.5);
+  box-shadow: var(--box-shadow);
   text-align: center;
 
   &:hover {
-    box-shadow: var(--box-shadow);
+    box-shadow: 3px 3px 20px rgba(7, 219, 247, 0.5);
     transform: translateY(-5px);
   }
   @media (min-width: 768px) {
@@ -92,7 +92,7 @@
 // tech stacks
 
 .tech {
-  color: #8892b0;
+  color: var(--neon-color);
 
   small {
     font-size: 0.8rem;

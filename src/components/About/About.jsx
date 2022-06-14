@@ -27,7 +27,7 @@ const About = () => {
           </motion.div>
           <motion.div variants={fadeIn('up')} className='skill__list'>
             <h2 className='skill__title'>
-              Techs I've used:
+              Technologies I'm currently using
             </h2>
             <ul>
               {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}

@@ -33,7 +33,7 @@ export const projects = [
   {
     id: 1,
     image: discord,
-    name: 'DiscordClone',
+    name: 'Discord Clone',
     descriptions: [
       '  Populated with authentication, Tweets, Tags, Follow, RealTime Notifications',
     ],

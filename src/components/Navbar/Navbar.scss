@@ -1,5 +1,6 @@
 .header {
   display: flex;
+  justify-content: center;
   align-items: center;
   height: var(--nav-height);
   top: 0;
@@ -35,6 +36,7 @@
       .nav-btn {
         background: none;
         border: none;
+        cursor: pointer;
       }
 
       .items {
