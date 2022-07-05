@@ -38,7 +38,7 @@ export const projects = [
       '  Populated with authentication, Tweets, Tags, Follow, RealTime Notifications',
     ],
 
-    deployed_url: 'https://my-discord-clone.vercel.app/',
+    deployed_url: 'https://discord-clone-2znqbwxxm-tomyotwongjai.vercel.app/',
     github_url: 'https://github.com/tomyotwongjai/discord_clone',
     category: ['react', 'tailwind'],
     key_techs: [
