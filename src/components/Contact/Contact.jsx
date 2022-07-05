@@ -15,18 +15,17 @@ const Contact = () => {
               <h1>Get In Touch</h1>
             </div>
             <div className='contact__info'>
-              <p>
-                I am currently looking for an opportunities to learn, grow and
-                part of creative team and build something awesome!
-              </p>
-            </div>
-
             <button
               className='button'
               onClick={() => window.open('mailto:tomyotwongjai@gmail.com')}
             >
               Get In Touch
             </button>
+              <p>
+                I am currently looking for an opportunities to learn, grow and
+                part of creative team and build something awesome!
+              </p>
+            </div>
 
           </section>
         </AnimateWhenVisible>
